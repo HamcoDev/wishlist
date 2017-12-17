@@ -21,7 +21,8 @@ export class MyApp {
         this.rootPage = 'LoginPage';
         unsubscribe();
       } else {
-        this.rootPage = HomePage;
+        // this.rootPage = HomePage;
+        this.rootPage = 'ProfilePage';
         unsubscribe();
       }
     });
